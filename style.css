@@ -1054,6 +1054,41 @@ nav .fa {
         width: 490px;
         right: 5px;
     }
+    .featured .featured-menus .text h3 {
+
+    font-size: 12px;
+
+    font-weight: 500;
+
+    margin-bottom: 0;
+
+    color: #ffffff;
+
+}
+
+.featured .featured-menus .text p {
+
+    font-size: 10px;
+
+    margin-bottom: 0;
+
+    color: rgba(255, 255, 255, 0.781);
+
+}
+
+.featured .featured-menus .menu-img {
+
+    width: 45px;
+
+    height: 45px;
+
+    margin: 0 auto;
+
+    margin-bottom: 10px;
+
+    border-radius: 50%;
+
+}
     .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
         font-size: 5px;
         padding-top: 0.4rem;
