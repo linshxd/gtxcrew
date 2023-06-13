@@ -868,6 +868,12 @@ html {
     font-size: 17px;
     font-weight: 700;
     color: #000000;
+    margin-left: 50px;
+}
+
+.myr {
+    margin-left: 50px;
+    padding-right: 30px;
 }
 
 .ftco-footer .categories li {
@@ -882,6 +888,7 @@ html {
     position: relative;
     margin-bottom: 0;
     border-radius: 0;
+    margin-left: 50px;
 }
 
 .ftco-footer .subscribe-form .form-group input {
@@ -961,7 +968,7 @@ html {
     color: white;
     text-align: center;
 }
-.steve p{
+.steve p {
     position: absolute;
     width: 100%;
     background-color: #c8a97e;
@@ -1018,10 +1025,44 @@ html {
 
 /*----------css for small screen-------*/
 
-nav .fa{
+nav .fa {
     display: none;
 }
 
-@media only screen and (max-width: 600px){
-    
+.insta {
+    display: inline-block;
+}
+
+@media only screen and (max-width: 600px) {
+    .insta {
+        display: none;
+    }
+    .ftco-footer .ftco-heading-2 {
+        margin-left: 0;
+    }
+    .myr {
+        margin-left: 0;
+    }
+
+    .ftco-footer .subscribe-form .form-group {
+        margin-left: 0;
+    }
+    .review {
+        margin-top: 50px;
+    }
+    .intro_content {
+        width: 490px;
+        right: 5px;
+    }
+    .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
+        font-size: 5px;
+        padding-top: 0.4rem;
+        padding-bottom: 0.4rem;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-weight: 400;
+        color: #ffffff;
+        opacity: 1 !important;
+        display: inline-block;
+    }
 }

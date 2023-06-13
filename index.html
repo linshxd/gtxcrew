@@ -564,9 +564,9 @@
                                 </div>
                                 <div class="text">
                                     <p class="mb-4">
-                                    I recently had the pleasure of working with the GTX Crew, a video editing team, they exceeded all my expectations. These guys are simply amazing!
-From the moment I reached out to them, they were incredibly responsive and professional. They took the time to understand my vision and requirements for the project, and I immediately felt confident in their abilities.
-                        </p>
+                                        I recently had the pleasure of working with the GTX Crew, a video editing team, they exceeded all my expectations. These guys are simply amazing!
+                                        From the moment I reached out to them, they were incredibly responsive and professional. They took the time to understand my vision and requirements for the project, and I immediately felt confident in their abilities.
+                                    </p>
                                     <div class="d-flex align-items-center">
                                         <div class="user-img" style="background-image: url(https://cdn.discordapp.com/attachments/1113393273332047872/1117549272624275627/IMG_20221024_193234_9102.jpg);"></div>
                                         <div class="pl-3">
@@ -574,7 +574,7 @@ From the moment I reached out to them, they were incredibly responsive and profe
                                                 saenok
                                             </p>
                                             <span class="position"><a target="_blank" href="https://instagram.com/saenokk?igshid=MzRlODBiNWFlZA=="><span class="fa fa-instagram"></span></a>
-                <a href="http://discordapp.com/users/891940499890515978"><i class="fa fa-discord-alt"></i></a></span>
+                                                <a href="http://discordapp.com/users/891940499890515978"><i class="fa fa-discord-alt"></i></a></span>
                                         </div>
                                     </div>
                                 </div>
@@ -831,7 +831,7 @@ data-stellar-background-ratio="0.5">
 <span id="thenga" class="subheading">Order</span>
 <h2 class="mb-4">Your Work</h2>
 </div>
-<form name="submit-to-google-sheet">
+<form name="submit-to-google-sheet" method="POST">
 <div class="row">
 <div class="col-md-6">
 <div class="form-group">
@@ -1028,20 +1028,8 @@ have the best editors in kerala working for us and happying creating for you.
 </ul>
 </div>
 </div>
-<!--<div class="col-md-6 col-lg-3">
-                    <div class="ftco-footer-widget mb-4">
-                        <h2 class="ftco-heading-2">Open Hours</h2>
-                        <ul class="list-unstyled open-hours">
-                            <li class="d-flex"><span>Monday</span><span>9:00 - 24:00</span></li>
-                            <li class="d-flex"><span>Tuesday</span><span>9:00 - 24:00</span></li>
-                            <li class="d-flex"><span>Wednesday</span><span>9:00 - 24:00</span></li>
-                            <li class="d-flex"><span>Thursday</span><span>9:00 - 24:00</span></li>
-                            <li class="d-flex"><span>Friday</span><span>9:00 - 02:00</span></li>
-                            <li class="d-flex"><span>Saturday</span><span>9:00 - 02:00</span></li>
-                            <li class="d-flex"><span>Sunday</span><span> 9:00 - 02:00</span></li>
-                        </ul>
-                    </div>
-                </div>-->
+
+<div class="insta">
 <div class="col-md-6 col-lg-2">
 <div class="ftco-footer-widget mb-6">
 <h2 class="ftco-heading-2"></h2>
@@ -1056,14 +1044,15 @@ have the best editors in kerala working for us and happying creating for you.
 <a class="thumb-menu img" style="background-image: url(#);"></a>
 </div>
 </div>
-</div>
+</div></div>
+<div class="review">
 <div class="col-md-6">
 <div class="ftco-footer-widget mb-4">
 <h2 class="ftco-heading-2">Review Box</h2>
-<p>
+<p class="myr">
 We kindly request you to post your honest reviews about our services, thank you.
 </p>
-<form name="submit-to-google-sheet" class="subscribe-form">
+<form name="google-sheet" method="post" class="subscribe-form">
 <div class="form-group">
 <input required name="Name" type="text" class="form-control mb-2"
 placeholder="Your Name">
@@ -1077,7 +1066,7 @@ placeholder="Type your honest reviews..."></textarea>
 </div>
 </div>
 </div>
-</div>
+</div></div>
 <div class="steve">
 <p>
 Copyright© - GTx Crew Designed by Steve
@@ -1099,7 +1088,21 @@ form.addEventListener('submit', e => {
 e.preventDefault()
 fetch(scriptURL, {
 method: 'POST', body: new FormData(form)})
-.then(response => console.log('Success!', response))
+.then(response => alert("Your order has been placed successfully..! Our staffs Contact You Soon..."))
+.catch(error => console.error('Error!', error.message))
+})
+</script>
+
+
+<script>
+const scriptURL = 'https://script.google.com/macros/s/AKfycby-Rc1m4faqyF7dqRdh_JniLR23K6Q2khXX8YIxqAICj7P6zAVpUGeWaQGGXlPk6neSEA/exec'
+const form = document.forms['google-sheet']
+
+form.addEventListener('submit', e => {
+e.preventDefault()
+fetch(scriptURL, {
+method: 'POST', body: new FormData(form)})
+.then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
 .catch(error => console.error('Error!', error.message))
 })
 </script>
