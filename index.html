@@ -1107,9 +1107,9 @@
             method: 'POST', body: new FormData(form)})
         .then(response => {
             msg.innerHTML = "Order has been placed succesfully. Our staff team will contact you soon"
-            setTimeOut(function(){
+            setTimeout(function() {
                 msg.innerHTML = ""
-            },5000)
+            }, 3500)
             form.reset()
         })
         .catch(error => console.error('Error!', error.message))
@@ -1117,18 +1117,6 @@
 </script>
 
 
-<script>
-    const scriptURL = 'https://script.google.com/macros/s/AKfycby-Rc1m4faqyF7dqRdh_JniLR23K6Q2khXX8YIxqAICj7P6zAVpUGeWaQGGXlPk6neSEA/exec'
-    const form = document.forms['google-sheet']
-
-    form.addEventListener('submit', e => {
-        e.preventDefault()
-        fetch(scriptURL, {
-            method: 'POST', body: new FormData(form)})
-        .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
-        .catch(error => console.error('Error!', error.message))
-    })
-</script>
 
 
 
