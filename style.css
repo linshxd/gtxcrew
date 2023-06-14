@@ -976,51 +976,7 @@ html {
     text-align: center;
 }
 
-/*@media (max-width:600px) {
-  .container > .navbar-collapse {
-    display: inline-block;
-    position: absolute;
-    right: 0px;
-    top: 0px;
-  }
-  .container > .navbar-collapse > label {
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    padding: 13px;
-  }
-  .container > .navbar-collapse > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
-    background-color: rgba(0, 0, 0, 0.3);
-  }
-  .container > .navbar-collapse > label > span {
-    display: block;
-    width: 25px;
-    height: 10px;
-    border-top: 2px solid #eee;
-  }
-  .container > .navbar-collapse {
-    position: absolute;
-    display: block;
-    width: 100%;
-    background-color: #333;
-    height: 0px;
-    transition: all 0.3s ease-in;
-    overflow-y: hidden;
-    top: 50px;
-    left: 0px;
-  }
-  .container > .navbar-collapse > a {
-    display: block;
-    width: 100%;
-  }
-  .container > #nav-check:not(:checked) ~ .collpase navbar-collapse {
-    height: 0px;
-  }
-  .container > #nav-check:checked ~ collpase navbar-collapse {
-    height: calc(100vh - 50px);
-    overflow-y: auto;
-  }
-}*/
+
 
 
 /*----------css for small screen-------*/
@@ -1031,6 +987,11 @@ nav .fa {
 
 .insta {
     display: inline-block;
+}
+#msg{
+   color: #61b752; 
+   margin-top: -10px;
+   display: block;
 }
 
 @media only screen and (max-width: 600px) {
@@ -1051,44 +1012,29 @@ nav .fa {
         margin-top: 50px;
     }
     .intro_content {
-        width: 490px;
+        width: 450px;
         right: 5px;
     }
     .featured .featured-menus .text h3 {
+        font-size: 12px;
+        font-weight: 500;
+        margin-bottom: 0;
+        color: #ffffff;
+    }
 
-    font-size: 12px;
+    .featured .featured-menus .text p {
+        font-size: 10px;
+        margin-bottom: 0;
+        color: rgba(255, 255, 255, 0.781);
+    }
 
-    font-weight: 500;
-
-    margin-bottom: 0;
-
-    color: #ffffff;
-
-}
-
-.featured .featured-menus .text p {
-
-    font-size: 10px;
-
-    margin-bottom: 0;
-
-    color: rgba(255, 255, 255, 0.781);
-
-}
-
-.featured .featured-menus .menu-img {
-
-    width: 45px;
-
-    height: 45px;
-
-    margin: 0 auto;
-
-    margin-bottom: 10px;
-
-    border-radius: 50%;
-
-}
+    .featured .featured-menus .menu-img {
+        width: 45px;
+        height: 45px;
+        margin: 0 auto;
+        margin-bottom: 10px;
+        border-radius: 50%;
+    }
     .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
         font-size: 5px;
         padding-top: 0.4rem;
@@ -1098,6 +1044,6 @@ nav .fa {
         font-weight: 400;
         color: #ffffff;
         opacity: 1 !important;
-        display: inline-block;
+        display:;
     }
 }
