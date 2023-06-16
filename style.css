@@ -1087,13 +1087,19 @@ nav .fa {
     }
     .featured .featured-menus .text h3 {
         font-size: 10px;
+        display: none;
     }
 
     .featured .featured-menus .text p {
         font-size: 5px;
+        display: none;
     }
     .featured .featured-menus .menu-img {
         width: 30px;
         height: 30px;
+        display: none;
+    }
+    .featured {
+        border-top: none;
     }
 }
