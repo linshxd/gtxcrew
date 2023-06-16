@@ -1086,4 +1086,27 @@ nav .fa {
     .container-fluid {
         display: none;
     }
+    .navbar-brand {
+        font-size: 13px;
+        padding-left: 20px;
+    }
+    .owl-carousel.home-slider .slider-item .slider-text .subheading {
+        font-size: 30px;
+        color: #c8a97e;
+        font-weight: normal;
+        margin-bottom: 0;
+        line-height: 1;
+        font-family: "Great Vibes", cursive;
+    }
+
+    .owl-carousel.home-slider .slider-item .slider-text h1 {
+        font-size: 20px;
+        color: #ffffff;
+        font-weight: 600;
+        margin-bottom: 0;
+        line-height: 1.5;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+        font-family: "Poppins", cursive;
+    }
 }
