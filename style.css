@@ -975,7 +975,9 @@ html {
     color: white;
     text-align: center;
 }
-
+#sidenav {
+    display: none;
+}
 
 
 
@@ -988,10 +990,10 @@ nav .fa {
 .insta {
     display: inline-block;
 }
-#msg{
-   color: #61b752; 
-   margin-top: -10px;
-   display: block;
+#msg {
+    color: #61b752;
+    margin-top: -10px;
+    display: block;
 }
 
 @media only screen and (max-width: 600px) {
@@ -1036,14 +1038,49 @@ nav .fa {
         border-radius: 50%;
     }
     .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
-        font-size: 5px;
-        padding-top: 0.4rem;
-        padding-bottom: 0.4rem;
-        padding-left: 20px;
-        padding-right: 20px;
-        font-weight: 400;
-        color: #ffffff;
-        opacity: 1 !important;
-        display:;
+        display: none;
+    }
+    #sidenav {
+        display: block;
+        width: 240px;
+        height: 100vh;
+        position: fixed;
+        background: #c8a97e;
+        top: 0;
+        right: -250px;
+        z-index: 2;
+        transition: 0.3s;
+
+
+    }
+    #sidenav nav ul li {
+        list-style: none;
+        margin: 20px 2px;
+
+    }
+    #sidenav nav ul li a {
+        text-decoration: none;
+        color: #fff;
+
+    }
+    #menubtn {
+        top: 20px;
+        right: 40px;
+        position: fixed;
+        z-index: 3;
+        cursor: pointer;
+        text-align: center;
+        width: 50px;
+        height: 50px;
+
+
+
+    }
+    #menubtn img {
+        width: 80px;
+        top: 6px;
+    }
+    .container-fluid{
+        display: none;
     }
 }
