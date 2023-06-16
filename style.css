@@ -1,5 +1,5 @@
 html {
-    overflow-x: hidden;
+    overflow-x: visible;
     scroll-behavior: smooth;
 }
 
@@ -11,6 +11,9 @@ html {
     right: 0;
     z-index: 3;
     padding: 0;
+}
+#myDIV {
+    overflow: scroll;
 }
 
 .ftco-navbar-light .navbar-brand {
@@ -1080,7 +1083,7 @@ nav .fa {
         width: 80px;
         top: 6px;
     }
-    .container-fluid{
+    .container-fluid {
         display: none;
     }
 }
