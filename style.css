@@ -672,7 +672,6 @@ html {
 .staff .img {
     height: 320px;
     border-radius: 5px;
-    background-position: top center;
 }
 
 .staff .text {
@@ -1020,26 +1019,6 @@ nav .fa {
         width: 450px;
         right: 5px;
     }
-    .featured .featured-menus .text h3 {
-        font-size: 12px;
-        font-weight: 500;
-        margin-bottom: 0;
-        color: #ffffff;
-    }
-
-    .featured .featured-menus .text p {
-        font-size: 10px;
-        margin-bottom: 0;
-        color: rgba(255, 255, 255, 0.781);
-    }
-
-    .featured .featured-menus .menu-img {
-        width: 45px;
-        height: 45px;
-        margin: 0 auto;
-        margin-bottom: 10px;
-        border-radius: 50%;
-    }
     .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
         display: none;
     }
@@ -1070,7 +1049,7 @@ nav .fa {
         top: 20px;
         right: 40px;
         position: fixed;
-        z-index: 3;
+        z-index: 2;
         cursor: pointer;
         text-align: center;
         width: 50px;
@@ -1083,15 +1062,12 @@ nav .fa {
         width: 80px;
         top: 6px;
     }
-    .container-fluid {
-        display: none;
-    }
     .navbar-brand {
         font-size: 13px;
         padding-left: 20px;
     }
     .owl-carousel.home-slider .slider-item .slider-text .subheading {
-        font-size: 30px;
+        font-size: 40px;
         color: #c8a97e;
         font-weight: normal;
         margin-bottom: 0;
@@ -1100,7 +1076,7 @@ nav .fa {
     }
 
     .owl-carousel.home-slider .slider-item .slider-text h1 {
-        font-size: 20px;
+        font-size: 30px;
         color: #ffffff;
         font-weight: 600;
         margin-bottom: 0;
@@ -1108,5 +1084,16 @@ nav .fa {
         letter-spacing: 4px;
         text-transform: uppercase;
         font-family: "Poppins", cursive;
+    }
+    .featured .featured-menus .text h3 {
+        font-size: 10px;
+    }
+
+    .featured .featured-menus .text p {
+        font-size: 5px;
+    }
+    .featured .featured-menus .menu-img {
+        width: 30px;
+        height: 30px;
     }
 }
