@@ -1,6 +1,5 @@
 html {
     overflow-x: visible;
-    overflow-y: hidden;
     scroll-behavior: smooth;
 }
 
@@ -15,7 +14,6 @@ html {
 }
 #myDIV {
     overflow-x: scroll;
-    overflow-y: hidden;
 }
 
 .ftco-navbar-light .navbar-brand {
