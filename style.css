@@ -1043,6 +1043,8 @@ nav .fa {
     #sidenav nav ul li a {
         text-decoration: none;
         color: #fff;
+        font-weight: 1000;
+        letter-spacing: .1rem;
 
     }
     #menubtn {
