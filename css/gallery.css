@@ -1,0 +1,159 @@
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+
+
+.bg-light {
+  background: #fafafa !important;
+}
+
+.ftco-section {
+  padding: 5em 0;
+  position: relative;
+}
+
+.heading-section {
+  position: relative;
+}
+
+.heading-section .subheading {
+  position: absolute;
+  top: -50px;
+  left: 0;
+  right: 0;
+  font-weight: normal;
+  font-size: 100px;
+  display: block;
+  margin-bottom: 0;
+  color: rgba(0, 0, 0, 0.2);
+  color: #c8a97e;
+  line-height: 1;
+  margin-top: 0;
+  z-index: -1;
+  font-family: "Great Vibes", cursive;
+}
+
+.heading-section h2 {
+  font-size: 50px;
+  font-weight: 900;
+  line-height: 1.2;
+}
+
+
+.single-cat-widget {
+  position: relative;
+  text-align: center;
+}
+
+.single-cat-widget .overlay-bg {
+  background: rgba(0, 0, 0, 0.75);
+  border-radius: 10%;
+  margin: 7%;
+  transition: all 0.4s ease 0s;
+}
+
+.single-cat-widget img {
+  width: 100%;
+  margin: 1rem;
+  border-radius: 10%;
+  aspect-ratio: 16/9;
+}
+.single-cat-widget .content-details {
+  top: 25%;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  color: #ffffff;
+  bottom: 0px;
+  position: absolute;
+}
+
+.single-cat-widget .content-details h4 {
+  color: #ffffff;
+  margin-bottom: 0;
+}
+
+.single-cat-widget .content-details span {
+  display: inline-block;
+  background: #ffffff;
+  width: 60%;
+  height: 1%;
+}
+
+.single-cat-widget .overlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.single-cat-widget:hover .overlay-bg {
+  background: rgba(186, 146, 54, 0.85);
+  margin: 7%;
+  transition: all 0.4s ease 0s;
+}
+.steve p {
+    position: relative;
+    width: 100%;
+    background-color: #c8a97e;
+    color: white;
+    text-align: center;
+    margin-bottom: 0;
+    bottom: 0;
+}
+@media only screen and (max-width: 992px) {
+    .insta {
+        display: none;
+    }
+    .ftco-footer .ftco-heading-2 {
+        margin-left: 0;
+    }
+    .myr {
+        margin-left: 0;
+    }
+
+    
+    li {
+        list-style: none;
+    }
+    a {
+        text-decoration: none;
+        color: #c8a97e;
+        font-size: 1rem;
+    }
+
+}
+.ftco-animate {
+    opacity: 0;
+    visibility: hidden;
+}
+.bg-light {
+    background: #fafafa !important;
+}
+
+.heading-section .subheading {
+    position: absolute;
+    top: -50px;
+    left: 0;
+    right: 0;
+    font-weight: normal;
+    font-size: 100px;
+    display: block;
+    margin-bottom: 0;
+    color: #c8a97e;
+    line-height: 1;
+    margin-top: 0;
+    z-index: -1;
+    font-family: "Great Vibes", cursive;
+}
+
+.heading-section h2 {
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 1.2;
+}
+
